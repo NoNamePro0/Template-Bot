@@ -22,7 +22,7 @@ public class Bot {
         INSTANCE = this;
 
         DefaultShardManagerBuilder builder = new DefaultShardManagerBuilder();
-        builder.setToken(Global.token);
+        builder.setToken(Global.TOKEN);
 
         cmdMan = new CommandManager();
 
